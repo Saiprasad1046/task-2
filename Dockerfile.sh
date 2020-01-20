@@ -4,7 +4,7 @@ RUN mkdir /opt/tomcat/
 
 WORKDIR /opt/tomcat
 RUN curl -O https://www-eu.apache.org/dist/tomcat/tomcat-8/v8.5.50/bin/apache-tomcat-8.5.50-deployer.tar.gz
-RUN tar -xvfz apache-tomcat-8.5.50-deployer.tar.gz
+RUN tar -xvf apache-tomcat-8.5.50-deployer.tar.gz
 RUN mv apache-tomcat-8.5.40/* /opt/tomcat/.
 RUN yum -y install java
 RUN java -version
