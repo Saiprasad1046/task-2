@@ -1,4 +1,4 @@
-FROM alipne
+FROM centos
 
 RUN mkdir /opt/tomcat/
 
