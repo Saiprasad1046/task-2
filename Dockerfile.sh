@@ -13,6 +13,6 @@ WORKDIR /opt/tomcat/webapps
 RUN curl -O -L https://github.com/9493146128/Docker.git
 
 
-EXPOSE 9090
+EXPOSE 9090 
 
 CMD ["/opt/tomcat/bin/catalina.sh", "run"]
